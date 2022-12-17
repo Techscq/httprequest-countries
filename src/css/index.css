@@ -1,0 +1,131 @@
+body {
+    background-color: #121821;
+    color: aliceblue;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    background: darkslategray;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 300px;
+    height: auto;
+    overflow: hidden;
+    margin: 5px;
+    cursor: pointer;
+}
+
+article:hover {
+    background: darkcyan;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+article img {
+    width: 300px;
+}
+
+#countryInfo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#titleSection {
+    flex: 0 0 100%;
+    text-align: justify;
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#imgSection img {
+    background: darkslategray;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+#infoSection {
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+#infoSection div {
+    padding: 5px;
+}
+#infoSection div > div:before {
+    margin-left: 20px;
+    content: '>';
+}
+
+#moreInfoSection {
+    text-align: justify;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+#mapSection {
+    flex: 0 0 100%;
+}
+
+#mapSection iframe {
+    width: 90%;
+    height: 300px;
+}
+
+#bordersSection {
+    flex: 0 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bordersSection h2 {
+    flex: 0 0 100%;
+}
+
+#bordersSection div {
+    background: darkslategray;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#bordersSection div img {
+    width: 200px;
+}
+
+button {
+    background-color: darkslategray;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+#filterSection {
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#filterSection input {
+    margin: 5px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+    width: 80%;
+}
